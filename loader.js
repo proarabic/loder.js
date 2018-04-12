@@ -1,1 +1,8 @@
-%24(document)%5B'ready'%5D(function%20()%20%7B%0A%20%20%20%20%20%20%20%20%24('%23tha')%5B'html'%5D('%3Ca%20href%3D%22https%3A%2F%2Fwww.tharabic.com%22%20rel%3D%22dofollow%22%20target%3D%22_blank%22%3E%20%D8%A7%D9%84%D9%85%D8%AD%D8%AA%D8%B1%D9%81%20%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%20%3C%2Fa%3E')%3B%0A%20%20%20%20%20%20%20%20setInterval(function%20()%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20if%20(!%24('%23tha%3Avisible')%5B'length'%5D)%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20window%5B'location'%5D%5B'href'%5D%20%3D%20'https%3A%2F%2Fwww.tharabic.com'%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%2C%203000)%3B%0A%20%20%20%20%7D)%3B
+$(document)['ready'](function () {
+        $('#tha')['html']('<a href="https://www.tharabic.com" rel="dofollow" target="_blank"> المحترف العربي </a>');
+        setInterval(function () {
+                if (!$('#tha:visible')['length']) {
+                  window['location']['href'] = 'https://www.tharabic.com';
+                };
+            }, 3000);
+    });
