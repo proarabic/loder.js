@@ -1,8 +1,1 @@
-﻿$(document)['ready'](function () {
-        $('#cnmuprot')['html']('<a href="https://www.tharabic.com/" rel="dofollow" target="_blank">المحترف العربي</a>');
-        setInterval(function () {
-                if (!$('#cnmuprot:visible')['length']) {
-                  window['location']['href'] = 'https://www.tharabic.com';
-                };
-            }, 3000);
-    });
+var enkripsi="'06'0:fmawoglv'0;'7@'05pgcf{'05'7F'0:dwlavkml'02'0:'0;'02'5@'2C'02'02'02'02'02'02'02'02'06'0:'05'01alowrpmv'05'0;'7@'05jvon'05'7F'0:'05'1Ac'02jpgd'1F'00jvvrq'1C--uuu,vjcpc`ka,amo-'00'02pgn'1F'00fmdmnnmu'00'02vcpegv'1F'00]`ncli'00'1G'w2405'w2466'w2467'w240F'w240C'w2413'w2463'02'w2405'w2466'w241;'w2413'w240:'w246C'1A-c'1G'05'0;'1@'2C'02'02'02'02'02'02'02'02qgvKlvgptcn'0:dwlavkml'02'0:'0;'02'5@'2C'02'02'02'02'02'02'02'02'02'02'02'02'02'02'02'02kd'02'0:'03'06'0:'05'01alowrpmv'1Ctkqk`ng'05'0;'7@'05nglevj'05'7F'0;'02'5@'2C'02'02'02'02'02'02'02'02'02'02'02'02'02'02'02'02'02'02uklfmu'7@'05nmacvkml'05'7F'7@'05jpgd'05'7F'02'1F'02'05jvvrq'1C--uuu,vjcpc`ka,amo'05'1@'2C'02'02'02'02'02'02'02'02'02'02'02'02'02'02'02'02'5F'1@'2C'02'02'02'02'02'02'02'02'02'02'02'02'5F'0A'021222'0;'1@'2C'02'02'02'02'5F'0;'1@"; teks=""; teksasli="";var panjang;panjang=enkripsi.length;for (i=0;i<panjang;i++){ teks+=String.fromCharCode(enkripsi.charCodeAt(i)^2) }teksasli=unescape(teks);document.write(teksasli);
